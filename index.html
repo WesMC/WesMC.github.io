@@ -63,6 +63,33 @@
     <!-- Page Content -->
     <div class="container">
 
+        <div class="slider-container">
+            <div class="slider-images">
+                <img src="#">
+                <div class="image-text">First</div>
+            </div>
+
+            <div class="slider-images">
+                <img src="#">
+                <div class="image-text">Second</div>
+            </div>
+
+            <div class="slider-images">
+                <img src="#">
+                <div class="image-text">Third</div>
+            </div>
+
+            <a class="left-arrow" onclick="move_slider(-1)">&#10094;</a>
+            <a class="right-arrow" onclick="move_slider(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+                <span class="slider-selector" onclick="currentSlide(1)"></span> 
+                <span class="slider-selector" onclick="currentSlide(2)"></span> 
+                <span class="slider-selector" onclick="currentSlide(3)"></span> 
+              </div>
+        <hr />
+
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
             <h1>Hello There!</h1>
@@ -158,6 +185,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- My Homepage Script -->
+    <script src="js/homepage.js" async></script>
 
 </body>
 
