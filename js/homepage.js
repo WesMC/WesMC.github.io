@@ -75,4 +75,6 @@ function slideshow (n) {
     sliderAccess.selectors[sliderIndex].className += " active";
 }
 
+// Wait for images to load
+setTimeout(function () { }, 3000);
 slideshow();
