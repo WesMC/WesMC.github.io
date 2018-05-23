@@ -74,3 +74,5 @@ function slideshow (n) {
     sliderAccess.images[sliderIndex].style.display = "block";
     sliderAccess.selectors[sliderIndex].className += " active";
 }
+
+slideshow();
