@@ -1,14 +1,21 @@
 /* Slideshow container */
+
+
 .slideshow-container {
     max-width: 550px;
+    height: 30%;
     display: block;
     margin: 50px auto 30px auto;
     position: relative;
   }
   
   /* Hide the images by default */
-  .slider-images img {
+  .slider-images {
       display: none;
+  }
+
+  img {
+    vertical-align: middle;
   }
   
   /* Next & previous buttons */
