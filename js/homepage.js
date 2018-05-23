@@ -1,6 +1,6 @@
 class SliderClass {
     constructor () {
-        var images = document.getElementsByClassName("slider-images"),
+        var images = document.getElementsByClassName("slider-images").getElementsByTagName("img"),
             selectors = document.getElementsByClassName("slider-selectors"); 
     }
 }
